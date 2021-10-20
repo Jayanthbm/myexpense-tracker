@@ -228,7 +228,7 @@ app.get("/api/v1/expenses", async (req, res) => {
       totalIncomeByCategory: {},
       byMonth: [
         {
-          JAN: {
+          January: {
             totalExpenses: JAN_TOTAL_EXP,
             totalIncome: JAN_TOTAL_INCOME,
             totalSavings: JAN_TOTAL_SAVINGS,
@@ -245,7 +245,7 @@ app.get("/api/v1/expenses", async (req, res) => {
             },
             totalIncomeByCategory: {},
           },
-          FEB: {
+          February: {
             totalExpenses: FEB_TOTAL_EXP,
             totalIncome: FEB_TOTAL_INCOME,
             totalSavings: FEB_TOTAL_SAVINGS,
@@ -262,7 +262,7 @@ app.get("/api/v1/expenses", async (req, res) => {
             },
             totalIncomeByCategory: {},
           },
-          MAR: {
+          March: {
             totalExpenses: MAR_TOTAL_EXP,
             totalIncome: MAR_TOTAL_INCOME,
             totalSavings: MAR_TOTAL_SAVINGS,
@@ -279,7 +279,7 @@ app.get("/api/v1/expenses", async (req, res) => {
             },
             totalIncomeByCategory: {},
           },
-          APR: {
+          April: {
             totalExpenses: APR_TOTAL_EXP,
             totalIncome: APR_TOTAL_INCOME,
             totalSavings: APR_TOTAL_SAVINGS,
@@ -296,7 +296,7 @@ app.get("/api/v1/expenses", async (req, res) => {
             },
             totalIncomeByCategory: {},
           },
-          MAY: {
+          May: {
             totalExpenses: MAY_TOTAL_EXP,
             totalIncome: MAY_TOTAL_INCOME,
             totalSavings: MAY_TOTAL_SAVINGS,
@@ -313,7 +313,7 @@ app.get("/api/v1/expenses", async (req, res) => {
             },
             totalIncomeByCategory: {},
           },
-          JUN: {
+          June: {
             totalExpenses: JUN_TOTAL_EXP,
             totalIncome: JUN_TOTAL_INCOME,
             totalSavings: JUN_TOTAL_SAVINGS,
@@ -330,7 +330,7 @@ app.get("/api/v1/expenses", async (req, res) => {
             },
             totalIncomeByCategory: {},
           },
-          JUL: {
+          July: {
             totalExpenses: JUL_TOTAL_EXP,
             totalIncome: JUL_TOTAL_INCOME,
             totalSavings: JUL_TOTAL_SAVINGS,
@@ -347,7 +347,7 @@ app.get("/api/v1/expenses", async (req, res) => {
             },
             totalIncomeByCategory: {},
           },
-          AUG: {
+          August: {
             totalExpenses: AUG_TOTAL_EXP,
             totalIncome: AUG_TOTAL_INCOME,
             totalSavings: AUG_TOTAL_SAVINGS,
@@ -364,7 +364,7 @@ app.get("/api/v1/expenses", async (req, res) => {
             },
             totalIncomeByCategory: {},
           },
-          SEP: {
+          September: {
             totalExpenses: SEP_TOTAL_EXP,
             totalIncome: SEP_TOTAL_INCOME,
             totalSavings: SEP_TOTAL_SAVINGS,
@@ -381,7 +381,7 @@ app.get("/api/v1/expenses", async (req, res) => {
             },
             totalIncomeByCategory: {},
           },
-          OCT: {
+          October: {
             totalExpenses: OCT_TOTAL_EXP,
             totalIncome: OCT_TOTAL_INCOME,
             totalSavings: OCT_TOTAL_SAVINGS,
@@ -398,7 +398,7 @@ app.get("/api/v1/expenses", async (req, res) => {
             },
             totalIncomeByCategory: {},
           },
-          NOV: {
+          November: {
             totalExpenses: NOV_TOTAL_EXP,
             totalIncome: NOV_TOTAL_INCOME,
             totalSavings: NOV_TOTAL_SAVINGS,
@@ -415,7 +415,7 @@ app.get("/api/v1/expenses", async (req, res) => {
             },
             totalIncomeByCategory: {},
           },
-          DEC: {
+          December: {
             totalExpenses: DEC_TOTAL_EXP,
             totalIncome: DEC_TOTAL_INCOME,
             totalSavings: DEC_TOTAL_SAVINGS,
