@@ -32,6 +32,16 @@ app.get("/api/v1/expenses", async (req, res) => {
     const TOTAL_INCOME = json.table.rows[12].c[11].v;
     const TOTAL_SAVINGS = json.table.rows[12].c[12].v;
 
+    const TOTAL_EXP_FOOD = json.table.rows[12].c[1].v;
+    const TOTAL_EXP_FUEL = json.table.rows[12].c[2].v;
+    const TOTAL_EXP_BILLS = json.table.rows[12].c[3].v;
+    const TOTAL_EXP_TRANSPORTATION = json.table.rows[12].c[4].v;
+    const TOTAL_EXP_HEALTH = json.table.rows[12].c[5].v;
+    const TOTAL_EXP_HOUSEHOLD = json.table.rows[12].c[6].v;
+    const TOTAL_EXP_RENT = json.table.rows[12].c[7].v;
+    const TOTAL_EXP_LOANS = json.table.rows[12].c[8].v;
+    const TOTAL_EXP_OTHERS = json.table.rows[12].c[9].v;
+
     const JAN_TOTAL_EXP = json.table.rows[0].c[10].v;
     const JAN_TOTAL_INCOME = json.table.rows[0].c[11].v;
     const JAN_TOTAL_SAVINGS = json.table.rows[0].c[12].v;
@@ -204,9 +214,19 @@ app.get("/api/v1/expenses", async (req, res) => {
       totalExpenses: TOTAL_EXP,
       totalIncome: TOTAL_INCOME,
       totalSavings: TOTAL_SAVINGS,
-      totalExpensesByCategory: {},
+      totalExpensesByCategory: {
+        food: TOTAL_EXP_FOOD,
+        fuel: TOTAL_EXP_FUEL,
+        bills: TOTAL_EXP_BILLS,
+        transportation: TOTAL_EXP_TRANSPORTATION,
+        health: TOTAL_EXP_HEALTH,
+        household: TOTAL_EXP_HOUSEHOLD,
+        rent: TOTAL_EXP_RENT,
+        loans: TOTAL_EXP_LOANS,
+        others: TOTAL_EXP_OTHERS,
+      },
       totalIncomeByCategory: {},
-      ByMonth: [
+      byMonth: [
         {
           JAN: {
             totalExpenses: JAN_TOTAL_EXP,
